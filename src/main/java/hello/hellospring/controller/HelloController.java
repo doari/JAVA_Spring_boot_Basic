@@ -23,6 +23,7 @@ public class HelloController {
     @GetMapping("hello-string")
     @ResponseBody
     public String helloString(@RequestParam("name")String name){
+
         return "hello "+ name;// "hello spring"
     }
     @GetMapping("hello-api")
@@ -42,3 +43,4 @@ public class HelloController {
         }
     }
 }
+
