@@ -36,5 +36,10 @@ public class MemberService {
     }
     public Optional<Member> findOne(Long memberId){
         return  memberRepository.findById(memberId);
+
     }
 }
+/**
+ * 전체 회원 조회
+ */
+
